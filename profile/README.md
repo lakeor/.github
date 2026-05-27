@@ -29,22 +29,6 @@ The stack is built to be **self-hosted by default**: every layer ships as a
 container, a Nomad job, a Kustomize base, or an Ansible role — pick the
 deployment story that matches your infrastructure.
 
-## Repositories
-
-| Tier | Repo | Description |
-|---|---|---|
-| Runtime | [`starlake-rte`](https://github.com/starlakestack/starlake-rte) | Rust STAC API runtime (axum + PgSTAC + S3) |
-| Runtime | [`starlake-mcp`](https://github.com/starlakestack/starlake-mcp) | Model Context Protocol server for STAC |
-| Client | [`starlake-cli`](https://github.com/starlakestack/starlake-cli) | Cross-platform CLI |
-| Client | [`starlake-browser`](https://github.com/starlakestack/starlake-browser) | Embeddable STAC browser (Web Components) |
-| Client | [`starlake-admin`](https://github.com/starlakestack/starlake-admin) | Operator dashboard |
-| Infra | [`starlake-compose`](https://github.com/starlakestack/starlake-compose) | Docker Compose deployment |
-| Infra | [`starlake-cluster`](https://github.com/starlakestack/starlake-cluster) | Kubernetes / Kustomize manifests |
-| Infra | [`starlake-nomad`](https://github.com/starlakestack/starlake-nomad) | HashiCorp Nomad jobs |
-| Infra | [`starlake-deploy`](https://github.com/starlakestack/starlake-deploy) | Terraform + Ansible (Hetzner SX) |
-| Tooling | [`starlake-workbench`](https://github.com/starlakestack/starlake-workbench) | Benchmarks and validation harness |
-| Site | [`site-starlake_io`](https://github.com/starlakestack/site-starlake_io) | starlake.io marketing & docs |
-
 ## Get involved
 
 - **Discussions** — questions, ideas, show-and-tell
