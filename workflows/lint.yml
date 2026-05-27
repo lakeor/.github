@@ -1,0 +1,38 @@
+name: lint
+
+on:
+  workflow_call:
+    inputs:
+      node-version:
+        type: string
+        default: "20"
+        required: false
+  pull_request:
+  push:
+    branches: [dev, main]
+
+jobs:
+  spell:
+    name: cspell
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ inputs.node-version }}
+      - name: Run cspell
+        run: |
+          if [ -f cspell.json ]; then
+            npx --yes cspell --no-progress "**/*.md" "**/*.rs" "**/*.ts"
+          else
+            echo "no cspell.json — skipping"
+          fi
+
+  markdownlint:
+    name: markdownlint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: DavidAnson/markdownlint-cli2-action@v16
+        with:
+          globs: "**/*.md"

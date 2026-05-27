@@ -1,0 +1,6 @@
+# Default code owners for the starlakestack org.
+# Individual repos can override this file at the repo root.
+
+*       @larsvanvianen
+*.md    @larsvanvianen
+.github/ @larsvanvianen
