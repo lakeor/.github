@@ -1,4 +1,4 @@
-<!-- markdownlint-disable MD041 -->
+<!-- markdownlint-disable MD033 MD041 MD060 -->
 <p align="center">
   <img src="https://raw.githubusercontent.com/starlakestack/starlake/main/res/logo/starlake-logo.png" width="160" alt="StarLake">
 </p>

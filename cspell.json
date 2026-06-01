@@ -1,0 +1,27 @@
+{
+  "$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json",
+  "version": "0.2",
+  "language": "en",
+  "ignoreRegExpList": [
+    "/https?:\\/\\/[^\\s)\"']+/"
+  ],
+  "words": [
+    "axum",
+    "boid",
+    "datafusion",
+    "hetzner",
+    "iceberg",
+    "kustomize",
+    "minio",
+    "pgadmin",
+    "pgstac",
+    "qdrant",
+    "rustac",
+    "spatio",
+    "stac",
+    "starlake",
+    "starlakestack",
+    "starling",
+    "traefik"
+  ]
+}
