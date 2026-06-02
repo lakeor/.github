@@ -1,7 +1,7 @@
-# Security Policy — starlakestack
+# Security Policy — lakeor
 
 This is the default security policy for every repository in the
-[`starlakestack`](https://github.com/starlakestack) organisation. Individual
+[`lakeor`](https://github.com/lakeor) organisation. Individual
 repos may override it with their own `SECURITY.md`.
 
 ## Supported versions
@@ -22,7 +22,7 @@ minor for security fixes.
 - **Email:** [security@starling.studio](mailto:security@starling.studio)
   (PGP key on request; fingerprint listed at <https://starling.studio/security>)
 - **GitHub Security Advisories:**
-  <https://github.com/starlakestack/.github/security/advisories/new>
+  <https://github.com/lakeor/.github/security/advisories/new>
   (private to repo maintainers)
 
 Please include:

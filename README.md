@@ -1,7 +1,7 @@
-# StarLake org-wide GitHub configuration
+# Lakeor org-wide GitHub configuration
 
 This repository provides default community health files for the
-[`starlakestack`](https://github.com/starlakestack) GitHub organization.
+[`lakeor`](https://github.com/lakeor) GitHub organization.
 Anything here is inherited by every repo in the org that does not provide
 its own override.
 
@@ -9,7 +9,7 @@ its own override.
 
 | Path                        | Purpose                                                        |
 | --------------------------- | -------------------------------------------------------------- |
-| `profile/README.md`         | Org landing page (rendered at github.com/starlakestack)        |
+| `profile/README.md`         | Org landing page (rendered at github.com/lakeor)        |
 | `CODE_OF_CONDUCT.md`        | Contributor Covenant 2.1 — default for every repo              |
 | `CONTRIBUTING.md`           | Generic contribution guide                                     |
 | `SECURITY.md`               | Vulnerability disclosure policy                                |
@@ -34,7 +34,7 @@ Call them from any repo:
 ```yaml
 jobs:
   lint:
-    uses: starlakestack/.github/.github/workflows/lint.yml@main
+    uses: lakeor/.github/.github/workflows/lint.yml@main
 ```
 
 ## Overriding

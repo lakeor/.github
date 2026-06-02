@@ -21,16 +21,16 @@ body:
     attributes:
       label: Component
       options:
-        - starlake-rte (runtime)
-        - starlake-mcp
-        - starlake-cli
-        - starlake-admin
-        - starlake-browser
-        - starlake-compose
-        - starlake-cluster
-        - starlake-nomad
-        - starlake-deploy
-        - starlake-workbench
+        - lakeor-rte (runtime)
+        - lakeor-mcp
+        - lakeor-cli
+        - lakeor-admin
+        - lakeor-browser
+        - lakeor-compose
+        - lakeor-cluster
+        - lakeor-nomad
+        - lakeor-deploy
+        - lakeor-workbench
         - other
     validations:
       required: true

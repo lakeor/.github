@@ -1,10 +1,10 @@
 blank_issues_enabled: false
 contact_links:
   - name: Questions & discussion
-    url: https://github.com/orgs/starlakestack/discussions
+    url: https://github.com/orgs/lakeor/discussions
     about: Ask a question or start a discussion.
   - name: Security disclosure
-    url: https://github.com/starlakestack/.github/security/advisories/new
+    url: https://github.com/lakeor/.github/security/advisories/new
     about: Privately report a security vulnerability.
   - name: Commercial support
     url: https://starling.studio/contact

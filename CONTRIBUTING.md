@@ -1,7 +1,7 @@
-# Contributing to StarLake
+# Contributing to Lakeor
 
-Thanks for your interest in contributing to the StarLake stack
-([`starlakestack`](https://github.com/starlakestack)). This file is the default
+Thanks for your interest in contributing to the Lakeor stack
+([`lakeor`](https://github.com/lakeor)). This file is the default
 contribution guide for every repository in the org; individual repos may
 override or extend it with their own `CONTRIBUTING.md`.
 

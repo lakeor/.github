@@ -1,4 +1,4 @@
-# Default code owners for the starlakestack org.
+# Default code owners for the lakeor org.
 # Individual repos can override this file at the repo root.
 
 *       @larsvanvianen

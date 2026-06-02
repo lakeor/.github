@@ -1,19 +1,19 @@
 # Getting Support
 
-Thanks for using StarLake! Here is where to go depending on what you need.
+Thanks for using Lakeor! Here is where to go depending on what you need.
 
 ## :books: Documentation
 
-- Site: <https://starlake.io>
-- Architecture & deployment: <https://github.com/starlakestack/starlake>
-- Runtime API: <https://github.com/starlakestack/starlake-rte>
-- MCP server: <https://github.com/starlakestack/starlake-mcp>
+- Site: <https://lakeor.com>
+- Architecture & deployment: <https://github.com/lakeor/lakeor>
+- Runtime API: <https://github.com/lakeor/lakeor-rte>
+- MCP server: <https://github.com/lakeor/lakeor-mcp>
 
 ## :speech_balloon: Community
 
 - **GitHub Discussions** — questions, ideas, show-and-tell (per-repo)
 - **Issues** — bug reports & feature requests; use the templates
-- **Chat** — invite link on <https://starlake.io/community> (when available)
+- **Chat** — invite link on <https://lakeor.com/community> (when available)
 
 ## :shield: Security
 
@@ -26,11 +26,11 @@ components, managed deployments, custom integrations, and SLAs.
 
 - Email: [hello@starling.studio](mailto:hello@starling.studio)
 - Site: <https://starling.studio>
-- See [`COMMERCIALIZATION.md`](https://github.com/starlakestack/starlake/blob/dev/COMMERCIALIZATION.md)
+- See [`COMMERCIALIZATION.md`](https://github.com/lakeor/lakeor/blob/dev/COMMERCIALIZATION.md)
 
 ## :raised_hands: Sponsorship
 
 Help fund open development:
 
-- [GitHub Sponsors](https://github.com/sponsors/starlakestack)
-- [Open Collective](https://opencollective.com/starlake)
+- [GitHub Sponsors](https://github.com/sponsors/lakeor)
+- [Open Collective](https://opencollective.com/lakeor)
