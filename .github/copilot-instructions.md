@@ -93,7 +93,7 @@ Before reporting work complete:
 - **Contact**: info@starling.studio.
 - **Repo naming**: kebab-case, family-prefixed (`system-*`, `portal-*`,
   `sturnus-*`, `sturnia-*`, `public-*`).
-- **Packages**: published to GitHub Packages (npm scope `@starling-cloud/*`,
+- **Packages**: published to GitHub Packages (npm scope `@lakeor/*`,
   Python via the GitHub Packages PyPI). In dev, intra-fleet deps may be `file:`
   / path links; release builds use the published versions.
 - **Shared tooling** lives in fleet-level `bin/` (audit, release, sync scripts).

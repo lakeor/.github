@@ -1,27 +1,32 @@
 {
   "$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json",
   "version": "0.2",
-  "language": "en",
+  "language": "en,en-GB",
   "ignoreRegExpList": [
     "/https?:\\/\\/[^\\s)\"']+/"
   ],
   "words": [
+    "asciicasts",
     "axum",
     "boid",
+    "clippy",
     "datafusion",
+    "geospatial",
     "hetzner",
+    "ICLA",
     "iceberg",
     "kustomize",
+    "lakeor",
     "minio",
     "pgadmin",
     "pgstac",
+    "pyproject",
     "qdrant",
     "rustac",
+    "rustfmt",
     "spatio",
     "stac",
-    "lakeor",
-    "lakeor",
-    "starling",
+    "stdlib",
     "traefik"
   ]
 }

@@ -38,7 +38,7 @@ Examples of unacceptable behaviour include:
 ## Enforcement
 
 Instances of abusive, harassing, or otherwise unacceptable behaviour may be
-reported to the project maintainers at **conduct@starling.studio**. All
+reported to the project maintainers at <conduct@starling.studio>. All
 complaints will be reviewed and investigated promptly and fairly.
 
 The full enforcement guidelines mirror the Contributor Covenant 2.1

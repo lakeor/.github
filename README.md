@@ -9,7 +9,7 @@ its own override.
 
 | Path                        | Purpose                                                        |
 | --------------------------- | -------------------------------------------------------------- |
-| `profile/README.md`         | Org landing page (rendered at github.com/lakeor)        |
+| `profile/README.md`         | Org landing page (rendered at github.com/lakeor)               |
 | `CODE_OF_CONDUCT.md`        | Contributor Covenant 2.1 — default for every repo              |
 | `CONTRIBUTING.md`           | Generic contribution guide                                     |
 | `SECURITY.md`               | Vulnerability disclosure policy                                |

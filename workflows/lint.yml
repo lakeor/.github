@@ -19,11 +19,14 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: ${{ inputs.node-version }}
+          # `inputs` is empty on direct push/PR triggers, so fall back to 20.
+          node-version: ${{ inputs.node-version || '20' }}
       - name: Run cspell
         run: |
           if [ -f cspell.json ]; then
-            npx --yes cspell --no-progress "**/*.md" "**/*.rs" "**/*.ts"
+            # --no-must-find-files: don't fail when a glob (e.g. *.rs)
+            # matches nothing in a docs-only repo.
+            npx --yes cspell --no-progress --no-must-find-files "**/*.md" "**/*.rs" "**/*.ts"
           else
             echo "no cspell.json — skipping"
           fi

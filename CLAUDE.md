@@ -2,7 +2,7 @@
 # CLAUDE.md — .github
 
 Claude Code reads this file. Shared, fleet-wide guidance is maintained in the
-`@starling-cloud/agents` control plane and composed into `AGENTS.md` — import it:
+`@lakeor/agents` control plane and composed into `AGENTS.md` — import it:
 
 @AGENTS.md
 

@@ -1,0 +1,21 @@
+# Shared markdownlint config for the lakeor org. Inherited by any repo
+# that doesn't ship its own. Each disabled rule has a reason.
+config:
+  # Line length: impractical for tables, long URLs, and badge rows. We
+  # wrap prose by sentence, not by column.
+  MD013: false
+  # Table column alignment is cosmetic and differs between formatters.
+  MD060: false
+  # GitHub issue forms and PR/issue templates legitimately open with
+  # something other than a top-level heading.
+  MD041: false
+
+ignores:
+  - "**/node_modules/**"
+  # Control-plane-generated agent guidance (owned by @lakeor/agents).
+  # It can't be hand-edited here, so don't lint it.
+  - "AGENTS.md"
+  - "CLAUDE.md"
+  - "GEMINI.md"
+  - "**/copilot-instructions.md"
+  - ".cursor/**"
