@@ -91,9 +91,9 @@ Before reporting work complete:
 
 ## Organisation — Starling
 
-- **Owner**: Starling Associates BV. Code is **Proprietary** unless a repo's
+- **Owner**: Lakeor. Code is **Proprietary** unless a repo's
   `LICENSE` says otherwise — do not add open-source license headers.
-- **Contact**: info@starling.studio.
+- **Contact**: info@lakeor.com.
 - **Repo naming**: kebab-case, family-prefixed (`system-*`, `portal-*`,
   `sturnus-*`, `sturnia-*`, `public-*`).
 - **Packages**: published to GitHub Packages (npm scope `@lakeor/*`,

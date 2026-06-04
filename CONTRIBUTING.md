@@ -54,7 +54,7 @@ Do **not** open public issues for vulnerabilities — see [SECURITY.md](./SECURI
 By contributing you agree that your contribution is licensed under the same
 terms as the repository it lands in (Apache-2.0 for clients/SDKs/deployments,
 AGPL-3.0-or-later for runtime servers). A commercial dual-license is offered
-by Starling Studio for the AGPL-3.0 components — contributors retain copyright
+by Lakeor for the AGPL-3.0 components — contributors retain copyright
 to their contributions; see the [DCO](https://developercertificate.org/). An
 optional Individual Contributor License Agreement (ICLA), provided separately
-by Starling Studio on request, is only required for paid contractors.
+by Lakeor on request, is only required for paid contractors.

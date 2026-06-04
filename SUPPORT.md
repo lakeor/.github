@@ -21,11 +21,11 @@ For security disclosures, **do not** use public issues. See [SECURITY.md](./SECU
 
 ## :briefcase: Commercial support
 
-Starling Studio offers commercial support, dual-licensing of AGPL-3.0
+Lakeor offers commercial support, dual-licensing of AGPL-3.0
 components, managed deployments, custom integrations, and SLAs.
 
-- Email: [hello@starling.studio](mailto:hello@starling.studio)
-- Site: <https://starling.studio>
+- Email: [hello@lakeor.com](mailto:hello@lakeor.com)
+- Site: <https://lakeor.com>
 - See [`COMMERCIALIZATION.md`](https://github.com/lakeor/lakeor/blob/dev/COMMERCIALIZATION.md)
 
 ## :raised_hands: Sponsorship

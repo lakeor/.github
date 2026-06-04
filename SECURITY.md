@@ -19,8 +19,8 @@ minor for security fixes.
 
 **Do not open a public GitHub issue.** Use one of:
 
-- **Email:** [security@starling.studio](mailto:security@starling.studio)
-  (PGP key on request; fingerprint listed at <https://starling.studio/security>)
+- **Email:** [security@lakeor.com](mailto:security@lakeor.com)
+  (PGP key on request; fingerprint listed at <https://lakeor.com/security>)
 - **GitHub Security Advisories:**
   <https://github.com/lakeor/.github/security/advisories/new>
   (private to repo maintainers)

@@ -7,5 +7,5 @@ contact_links:
     url: https://github.com/lakeor/.github/security/advisories/new
     about: Privately report a security vulnerability.
   - name: Commercial support
-    url: https://starling.studio/contact
-    about: Commercial support, managed deployments, dual-licensing (hello@starling.studio).
+    url: https://lakeor.com/contact
+    about: Commercial support, managed deployments, dual-licensing (hello@lakeor.com).
