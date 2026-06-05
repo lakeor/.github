@@ -1,5 +1,5 @@
 ---
-description: Starling fleet conventions
+description: Lakeor fleet conventions
 alwaysApply: true
 ---
 ## Identity & context
@@ -87,7 +87,7 @@ Before reporting work complete:
 - A change that touches behaviour without a corresponding test run is *not*
   done.
 
-## Organisation — Starling
+## Organisation — Lakeor
 
 - **Owner**: Lakeor. Code is **Proprietary** unless a repo's
   `LICENSE` says otherwise — do not add open-source license headers.

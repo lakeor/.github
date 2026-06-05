@@ -1,4 +1,4 @@
-<!-- @starling-agents GENERATED v0.1.0 — DO NOT EDIT INSIDE THIS BLOCK -->
+<!-- @lakeor-agents GENERATED v0.1.0 — DO NOT EDIT INSIDE THIS BLOCK -->
 # Copilot instructions — .github
 
 ## Identity & context
@@ -86,7 +86,7 @@ Before reporting work complete:
 - A change that touches behaviour without a corresponding test run is *not*
   done.
 
-## Organisation — Starling
+## Organisation — Lakeor
 
 - **Owner**: Lakeor. Code is **Proprietary** unless a repo's
   `LICENSE` says otherwise — do not add open-source license headers.
@@ -98,4 +98,4 @@ Before reporting work complete:
   / path links; release builds use the published versions.
 - **Shared tooling** lives in fleet-level `bin/` (audit, release, sync scripts).
   Reuse it; don't reinvent fleet-wide automation per repo.
-<!-- @starling-agents END GENERATED -->
+<!-- @lakeor-agents END GENERATED -->

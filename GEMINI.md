@@ -1,4 +1,4 @@
-<!-- @starling-agents GENERATED v0.1.0 — DO NOT EDIT INSIDE THIS BLOCK -->
+<!-- @lakeor-agents GENERATED v0.1.0 — DO NOT EDIT INSIDE THIS BLOCK -->
 # GEMINI.md — .github
 
 Shared guidance is maintained centrally and composed into `AGENTS.md`. Read
@@ -7,4 +7,4 @@ Shared guidance is maintained centrally and composed into `AGENTS.md`. Read
 Repo classification: none · agent-config v0.1.0
 
 @AGENTS.md
-<!-- @starling-agents END GENERATED -->
+<!-- @lakeor-agents END GENERATED -->

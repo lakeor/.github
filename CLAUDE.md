@@ -1,4 +1,4 @@
-<!-- @starling-agents GENERATED v0.1.0 — DO NOT EDIT INSIDE THIS BLOCK -->
+<!-- @lakeor-agents GENERATED v0.1.0 — DO NOT EDIT INSIDE THIS BLOCK -->
 # CLAUDE.md — .github
 
 Claude Code reads this file. Shared, fleet-wide guidance is maintained in the
@@ -10,4 +10,4 @@ Repo classification: none · agent-config v0.1.0
 
 - Shared slash commands live in `.claude/commands/` (when present).
 - Project MCP servers are declared in `.mcp.json` (when present).
-<!-- @starling-agents END GENERATED -->
+<!-- @lakeor-agents END GENERATED -->
