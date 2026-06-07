@@ -28,6 +28,7 @@ repositories** grouped by owner and family — there is no monorepo.
    otherwise pick the conventional default, state it, and proceed.
 
 ### Git & changes
+
 - Don't `git commit`/`push` unless asked. If asked and on the default branch,
   create a feature branch first.
 - Hard-to-reverse or outward-facing actions (publishing, deleting, sending)
@@ -90,7 +91,8 @@ Before reporting work complete:
 
 - **Owner**: Lakeor. Code is **Proprietary** unless a repo's
   `LICENSE` says otherwise — do not add open-source license headers.
-- **Contact**: info@lakeor.com.
+- **Contact**: [info@lakeor.com](mailto:info@lakeor.com).
+
 - **Repo naming**: kebab-case, family-prefixed (`system-*`, `portal-*`,
   `sturnus-*`, `sturnia-*`, `public-*`).
 - **Packages**: published to GitHub Packages (npm scope `@lakeor/*`,
