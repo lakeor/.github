@@ -1,0 +1,4 @@
+{
+    "name": ".github Dev",
+    "dockerFile": "Dockerfile"
+}
