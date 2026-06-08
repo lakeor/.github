@@ -1,6 +1,6 @@
 <!-- markdownlint-disable MD033 MD041 MD060 -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/lakeor/lakeor/main/res/logo/lakeor-logo.png" width="160" alt="Lakeor">
+  <img src="https://raw.githubusercontent.com/lakeor/lakeor/main/res/logo/lakeor-logo.svg" width="160" alt="Lakeor">
 </p>
 
 <h1 align="center">Lakeor</h1>

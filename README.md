@@ -45,3 +45,14 @@ root (or under `.github/` inside the repo).
 ## License
 
 Apache-2.0 — see [LICENSE](LICENSE).
+
+---
+
+<!-- FOOTER START -->
+<p align="center">
+    <img src="res/logo/lakeor-logo.svg" width="5%" alt="Lakeor Logo">
+</p>
+<p align="center">
+    <sub>Copyright © 2025-2026 <a href="https://www.lakeor.com" target="_blank">Lakeor</a>. All Rights Reserved.</sub>
+</p>
+<!-- FOOTER END -->
