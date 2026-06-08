@@ -40,5 +40,5 @@ deployment story that matches your infrastructure.
 ---
 
 <p align="center">
-  <sub>Made by <a href="https://lakeor.com">Lakeor</a> · © 2026</sub>
+  <sub>Made by <a href="https://lakeor.com">Lakeor</a> ·  2026</sub>
 </p>
