@@ -1,0 +1,105 @@
+# =============================================================================
+# EditorConfig — https://editorconfig.org/
+# =============================================================================
+#
+# Portable: copy to other repos without modification. Section headers use
+# brace expansion (`[*.{yaml,yml}]`); comma-separated lists inside brackets
+# are NOT valid EditorConfig and are silently ignored.
+#
+# -----------------------------------------------------------------------------
+
+root = true
+
+
+# -----------------------------------------------------------------------------
+# Defaults — apply to every file unless overridden below.
+# -----------------------------------------------------------------------------
+
+[*]
+charset = utf-8
+end_of_line = lf
+indent_style = space
+indent_size = 4
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+
+# -----------------------------------------------------------------------------
+# Python — PEP 8 specifies 4 spaces.
+# -----------------------------------------------------------------------------
+
+[*.{py,pyi,pyx}]
+indent_size = 4
+
+
+# -----------------------------------------------------------------------------
+# Rust — rustfmt defaults to 4 spaces.
+# -----------------------------------------------------------------------------
+
+[*.rs]
+indent_size = 4
+
+
+# -----------------------------------------------------------------------------
+# Web & data formats — 2 spaces is the ecosystem norm.
+# -----------------------------------------------------------------------------
+
+[*.{js,jsx,ts,tsx,mjs,cjs,json,jsonc,css,scss,sass,less,html,vue,svelte}]
+indent_size = 2
+
+[*.{yaml,yml,toml}]
+indent_size = 2
+
+
+# -----------------------------------------------------------------------------
+# Shell — LF and 2 spaces; shell is whitespace-sensitive in heredocs.
+# -----------------------------------------------------------------------------
+
+[*.{sh,bash,zsh}]
+indent_size = 2
+
+
+# -----------------------------------------------------------------------------
+# Tab-mandatory formats. Make treats a leading space as a syntax error, so
+# this rule is load-bearing, not cosmetic.
+# -----------------------------------------------------------------------------
+
+[{Makefile,Makefile.*,makefile,GNUmakefile}]
+indent_style = tab
+
+[*.go]
+indent_style = tab
+
+[*.tsv]
+indent_style = tab
+
+
+# -----------------------------------------------------------------------------
+# Markdown — two trailing spaces are a hard line break, so preserve them.
+# -----------------------------------------------------------------------------
+
+[*.{md,markdown}]
+trim_trailing_whitespace = false
+
+
+# -----------------------------------------------------------------------------
+# Shaders.
+# -----------------------------------------------------------------------------
+
+[*.{glsl,vert,frag,wgsl}]
+indent_size = 4
+
+
+# -----------------------------------------------------------------------------
+# Vendored / generated files — leave byte-for-byte as produced.
+# -----------------------------------------------------------------------------
+
+[{package-lock.json,poetry.lock,Cargo.lock,pnpm-lock.yaml,yarn.lock}]
+indent_style = unset
+indent_size = unset
+insert_final_newline = unset
+trim_trailing_whitespace = unset
+
+[LICENSE]
+insert_final_newline = unset
+trim_trailing_whitespace = unset
