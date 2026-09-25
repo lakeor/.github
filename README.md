@@ -14,7 +14,6 @@ its own override.
 | `CONTRIBUTING.md`           | Generic contribution guide                                     |
 | `SECURITY.md`               | Vulnerability disclosure policy                                |
 | `SUPPORT.md`                | Where to get help (docs / discussions / commercial)            |
-| `FUNDING.yml`               | Sponsorship links shown in the "Sponsor" button                |
 | `CODEOWNERS`                | Default reviewers                                              |
 | `ISSUE_TEMPLATE/`           | Default issue forms                                            |
 | `PULL_REQUEST_TEMPLATE.md`  | Default PR template                                            |

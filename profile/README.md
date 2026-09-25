@@ -13,7 +13,6 @@
 <p align="center">
   <a href="https://github.com/lakeor/lakeor-rte"><img src="https://img.shields.io/badge/runtime-AGPL--3.0-blue?style=flat-square" alt="rte"></a>
   <a href="https://github.com/lakeor/lakeor-mcp"><img src="https://img.shields.io/badge/MCP-AGPL--3.0-blue?style=flat-square" alt="mcp"></a>
-  <a href="https://github.com/sponsors/lakeor"><img src="https://img.shields.io/badge/sponsor-%E2%9D%A4-pink?style=flat-square" alt="sponsor"></a>
 </p>
 
 ---
@@ -35,7 +34,6 @@ deployment story that matches your infrastructure.
 - **Issues** — bug reports, feature requests (use the templates)
 - **Security** — see [SECURITY.md](https://github.com/lakeor/.github/blob/main/SECURITY.md)
 - **Contributing** — see [CONTRIBUTING.md](https://github.com/lakeor/.github/blob/main/CONTRIBUTING.md)
-- **Sponsor** — [GitHub Sponsors](https://github.com/sponsors/lakeor) · [Open Collective](https://opencollective.com/lakeor)
 
 ---
 
