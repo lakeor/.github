@@ -5,7 +5,7 @@ Thanks for using Lakeor! Here is where to go depending on what you need.
 ## :books: Documentation
 
 - Site: <https://lakeor.com>
-- Architecture & deployment: <https://github.com/lakeor/lakeor>
+- Architecture & deployment: <https://docs.lakeor.com>
 - Runtime API: <https://github.com/lakeor/lakeor-rte>
 - MCP server: <https://github.com/lakeor/lakeor-mcp>
 
@@ -26,4 +26,3 @@ components, managed deployments, custom integrations, and SLAs.
 
 - Email: [hello@lakeor.com](mailto:hello@lakeor.com)
 - Site: <https://lakeor.com>
-- See [`COMMERCIALIZATION.md`](https://github.com/lakeor/lakeor/blob/dev/COMMERCIALIZATION.md)

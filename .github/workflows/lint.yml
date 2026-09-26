@@ -26,7 +26,8 @@ jobs:
           if [ -f cspell.json ]; then
             # --no-must-find-files: don't fail when a glob (e.g. *.rs)
             # matches nothing in a docs-only repo.
-            npx --yes cspell --no-progress --no-must-find-files "**/*.md" "**/*.rs" "**/*.ts"
+            npx --yes cspell --no-progress --no-must-find-files \
+              "**/*.md" "**/*.rs" "**/*.ts"
           else
             echo "no cspell.json — skipping"
           fi
