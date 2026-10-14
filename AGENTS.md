@@ -108,3 +108,9 @@ Before reporting work complete:
 ## Repo-specific notes
 
 *Repo-specific guidance goes here; preserved across regeneration.*
+
+## Working branch
+
+**Agents work directly on `dev`.** Unless explicitly asked otherwise, make
+all changes on the `dev` branch of this checkout — don't create feature
+branches or worktrees, and don't switch to another branch.
