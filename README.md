@@ -9,19 +9,19 @@ separate private repository.
 
 ## What's in here
 
-| Path                       | Purpose                                                         |
-| -------------------------- | --------------------------------------------------------------- |
-| `profile/README.md`        | Public org landing page, rendered at github.com/lakeor          |
-| `CODE_OF_CONDUCT.md`       | Contributor Covenant 2.1                                        |
-| `CONTRIBUTING.md`          | Generic contribution guide (DCO sign-off, Conventional Commits) |
-| `SECURITY.md`              | Vulnerability disclosure policy                                 |
-| `SUPPORT.md`               | Where to get help (docs, community, commercial)                 |
-| `CODEOWNERS`               | Default reviewers                                               |
-| `ISSUE_TEMPLATE/`          | Default issue forms (bug report, feature request) and `config.yml` |
-| `PULL_REQUEST_TEMPLATE.md` | Default PR template                                             |
-| `.github/workflows/`       | Reusable GitHub Actions workflows (see below)                   |
-| `res/logo/`                | Lakeor logo (SVG, PNG)                                          |
-| `LICENSE`                  | Apache-2.0, for the contents of this repo                       |
+| Path | Purpose |
+| --- | --- |
+| `profile/README.md` | Public org landing page, rendered at github.com/lakeor |
+| `CODE_OF_CONDUCT.md` | Contributor Covenant 2.1 |
+| `CONTRIBUTING.md` | Generic contribution guide (DCO sign-off, Conventional Commits) |
+| `SECURITY.md` | Vulnerability disclosure policy |
+| `SUPPORT.md` | Where to get help (docs, community, commercial) |
+| `CODEOWNERS` | Default reviewers |
+| `ISSUE_TEMPLATE/` | Default issue forms (bug report, feature request) and `config.yml` |
+| `PULL_REQUEST_TEMPLATE.md` | Default PR template |
+| `.github/workflows/` | Reusable GitHub Actions workflows (see below) |
+| `res/logo/` | Lakeor logo (SVG, PNG) |
+| `LICENSE` | Apache-2.0, for the contents of this repo |
 
 Any repo can override a file by providing its own at the repo root, in
 `.github/`, or in `docs/`.

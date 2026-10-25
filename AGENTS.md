@@ -114,3 +114,25 @@ Before reporting work complete:
 **Agents work directly on `dev`.** Unless explicitly asked otherwise, make
 all changes on the `dev` branch of this checkout — don't create feature
 branches or worktrees, and don't switch to another branch.
+
+### TODO.md & CHANGELOG.md
+
+Every repo keeps both files at its root.
+
+- **`TODO.md` holds open work only** — planned tasks, known problems, open
+  decisions. Mark actionable items as `- [ ]` checkboxes.
+- **`CHANGELOG.md` follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)**:
+  newest first, with an `## [Unreleased]` section at the top and entries
+  grouped under `### Added` / `Changed` / `Deprecated` / `Removed` / `Fixed` /
+  `Security`. At release, `[Unreleased]` becomes `## [x.y.z] - YYYY-MM-DD`.
+- **When you finish a TODO item, move it — don't tick it.** In the same change,
+  delete the item from `TODO.md` and add an entry under `## [Unreleased]` in
+  `CHANGELOG.md`. Write the entry as what changed (past tense, the effect, the
+  files or APIs involved), not as the original task, and keep any verification
+  note that matters ("verified with an AST scan of `src/`").
+- A **partly done** item stays in `TODO.md`, trimmed to what is left; the done
+  part goes to the changelog. An item **closed without a change** (stale,
+  duplicate, won't fix) is deleted from `TODO.md` and not logged — say why in
+  the commit message.
+- Drop a `TODO.md` heading once its last item has moved. Never leave `- [x]`
+  items in `TODO.md`.

@@ -9,8 +9,8 @@ repos may override it with their own `SECURITY.md`.
 | Channel | Supported |
 | ------- | --------- |
 | `main` (latest release) | :white_check_mark: |
-| `dev` (integration)     | :white_check_mark: best-effort |
-| pre-1.0 minor releases  | latest minor only |
+| `dev` (integration) | :white_check_mark: best-effort |
+| pre-1.0 minor releases | latest minor only |
 
 Once a component reaches 1.0 we support the latest minor plus one previous
 minor for security fixes.
