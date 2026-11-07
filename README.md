@@ -41,7 +41,7 @@ another repo like this:
 ```yaml
 jobs:
   lint:
-    uses: lakeor/.github/.github/workflows/lint.yml@main
+    uses: lakeor/.github/.github/workflows/lint.yml@dev
 ```
 
 ## Development

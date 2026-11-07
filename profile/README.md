@@ -1,6 +1,6 @@
 <!-- markdownlint-disable MD033 MD041 MD060 -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/lakeor/.github/main/res/logo/lakeor-logo.svg" width="160" alt="Lakeor">
+  <img src="https://raw.githubusercontent.com/lakeor/.github/dev/res/logo/lakeor-logo.svg" width="160" alt="Lakeor">
 </p>
 
 <h1 align="center">Lakeor</h1>
@@ -35,9 +35,9 @@ you can pick the one that matches your infrastructure.
 
 - **Discussions** — questions, ideas, show-and-tell
 - **Issues** — bug reports, feature requests (use the templates)
-- **Security** — see [SECURITY.md](https://github.com/lakeor/.github/blob/main/SECURITY.md)
-- **Contributing** — see [CONTRIBUTING.md](https://github.com/lakeor/.github/blob/main/CONTRIBUTING.md)
-- **Support** — see [SUPPORT.md](https://github.com/lakeor/.github/blob/main/SUPPORT.md)
+- **Security** — see [SECURITY.md](https://github.com/lakeor/.github/blob/dev/SECURITY.md)
+- **Contributing** — see [CONTRIBUTING.md](https://github.com/lakeor/.github/blob/dev/CONTRIBUTING.md)
+- **Support** — see [SUPPORT.md](https://github.com/lakeor/.github/blob/dev/SUPPORT.md)
 
 ---
 
