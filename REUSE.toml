@@ -1,0 +1,9 @@
+# Licensing metadata for this repository, checked by `reuse lint` (https://reuse.software/).
+# A file with its own licence header keeps it; these annotations fill in the rest.
+version = 1
+
+# Default for the repository, as stated in LICENSE. Paths further down override it.
+[[annotations]]
+path = "**"
+SPDX-FileCopyrightText = "Copyright 2026 Lakeor (Lakeor)"
+SPDX-License-Identifier = "Apache-2.0"

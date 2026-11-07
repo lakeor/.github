@@ -13,8 +13,13 @@ help: ## Show this help message
 version: ## Print VERSION
 	@echo $(VERSION)
 
-lint: ## Lint markdown + YAML
+lint: reuse ## Lint markdown + YAML
 	@command -v markdownlint >/dev/null && markdownlint '**/*.md' || echo "markdownlint not installed"
 	@command -v yamllint >/dev/null && yamllint . || echo "yamllint not installed"
 
 check: lint ## Run all checks
+
+.PHONY: reuse
+reuse: ## Check licence metadata against REUSE.toml with reuse lint
+	@if command -v uvx >/dev/null 2>&1; then uvx --from 'reuse[charset-normalizer]==6.3.0' reuse lint; \
+	else pipx run --spec 'reuse[charset-normalizer]==6.3.0' reuse lint; fi
